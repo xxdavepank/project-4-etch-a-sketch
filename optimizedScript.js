@@ -71,12 +71,25 @@ container.addEventListener("mousedown", function (e) {
   applyColor(e.target);
 });
 
+container.addEventListener("touchstart", function (e) {
+  ismousepressed = true;
+  applyColor(e.target);
+});
+
 container.addEventListener("mousemove", function (e) {
+  if (ismousepressed) {
+    applyColor(e.target);
+  }
+});
+container.addEventListener("touchmove", function (e) {
   if (ismousepressed) {
     applyColor(e.target);
   }
 });
 
 container.addEventListener("mouseup", function () {
+  ismousepressed = false;
+});
+container.addEventListener("touchend", function () {
   ismousepressed = false;
 });
