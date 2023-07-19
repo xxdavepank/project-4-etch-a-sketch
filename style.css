@@ -89,7 +89,7 @@ button {
   flex: 1;
 }
 .canvas {
-  border: 3px dotted gray;
+
   height: 300px;
   width: 300px;
   background: white;
