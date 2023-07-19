@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 4 Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="background">
+      <div class="header"><h1>Etch a Sketch</h1></div>
+      <div class="content">
+        <div class="setup">
+          <div>
+            <input type="color" class="colorSelect" value="#000000" />
+          </div>
+          <div><button class="colorMode">COLOR MODE</button></div>
+          <div>
+            <button class="rainbowMode">RAINBOW MODE</button>
+          </div>
+          <div class="eraser"><button class="eraserMode">ERASER</button></div>
+          <div><button class="resetMode">RESET</button></div>
+          <div class="dimension">1 x 1</div>
+          <div class="slider">
+            <input
+              type="range"
+              step="1"
+              min="1"
+              max="64"
+              value="1"
+              class="range"
+            />
+          </div>
+        </div>
+        <div class="border">
+          <div class="canvas">
+            <div class="divElement"><div class="divElement"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <h5>Copyright © lawrd 2023</h5>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
