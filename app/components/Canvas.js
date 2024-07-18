@@ -145,7 +145,7 @@ const Canvas = () => {
         </button>
         <button className="h" onClick={saveCanvas}>
           <p className="mb-0" style={{ fontSize: 50 }}>
-            &#x1F970;
+            &#x1F600;
           </p>
           <br />
           Save your work
