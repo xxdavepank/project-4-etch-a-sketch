@@ -1,41 +1,46 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Canvas Drawing App with Next.js
 
-## Getting Started
+This is a Next.js application that allows users to draw on a canvas, change pen colors and sizes, toggle between pen and eraser modes, reset the canvas, change the background color, and save their drawings.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Drawing:** Users can draw on the canvas using either a pen or an eraser.
+- **Pen and Eraser Modes:** Toggle between drawing with a pen (selectable color and size) and an eraser (which erases with the background color).
+- **Background Color:** Choose the background color for the canvas.
+- **Pen Color:** Select the color of the pen for drawing.
+- **Pen Size:** Adjust the thickness of the drawing pen.
+- **Reset Canvas:** Clear the entire canvas to start over.
+- **Save Canvas:** Save the current canvas drawing as a PNG image file.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. **Drawing:** Click and drag on the canvas area to draw.
+2. **Pen and Eraser Modes:** Click the "Pen Mode" or "Eraser Mode" button to toggle between modes.
+3. **Background Color:** Use the color picker input to change the background color of the canvas.
+4. **Pen Color:** Use the color picker input to change the color of the drawing pen.
+5. **Pen Size:** Adjust the pen size using the number input.
+6. **Reset Canvas:** Click the "Reset Canvas" button to clear the canvas.
+7. **Save Canvas:** Click the save button (emoji) to download the current canvas as a PNG file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologies Used
 
-## Learn More
+- Next.js
+- React.js
+- HTML5 Canvas API
+- Tailwind CSS (for styling)
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Install dependencies: `npm install`
+4. Start the development server: `npm run dev`
+5. Open your browser and go to `http://localhost:3000` to view the app.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+- Deploy the Next.js application to your preferred hosting platform.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-=======
-# project-4-etch-a-sketch
-https://xxdavepank.github.io/Project-4-Etch-a-Sketch/
->>>>>>> a3d644827991afa2d829671b27f81ae153fdd11d
+This project is licensed under the MIT License - see the LICENSE file for details.
